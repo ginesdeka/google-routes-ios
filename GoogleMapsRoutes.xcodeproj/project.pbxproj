@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		88E5E15533859A28529000C9 /* Pods_GoogleMapsRoutes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE986AE3419B64E180AC0C2F /* Pods_GoogleMapsRoutes.framework */; };
+		CB3C828923F2B89600BBCB0A /* VALENCIA.kml in Resources */ = {isa = PBXBuildFile; fileRef = CB3C828823F2B89600BBCB0A /* VALENCIA.kml */; };
 		CB92C2F123E427AD00EFA3A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92C2F023E427AD00EFA3A7 /* AppDelegate.swift */; };
 		CB92C2F323E427AD00EFA3A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92C2F223E427AD00EFA3A7 /* SceneDelegate.swift */; };
 		CB92C2F523E427AD00EFA3A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92C2F423E427AD00EFA3A7 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 		08F2ECC7E5D655994C4BEF21 /* Pods-GoogleMapsRoutes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsRoutes.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMapsRoutes/Pods-GoogleMapsRoutes.debug.xcconfig"; sourceTree = "<group>"; };
 		0E49542FDFF8D79CAF2CABF0 /* Pods-GoogleMapsRoutes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsRoutes.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapsRoutes/Pods-GoogleMapsRoutes.release.xcconfig"; sourceTree = "<group>"; };
 		BE986AE3419B64E180AC0C2F /* Pods_GoogleMapsRoutes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapsRoutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3C828823F2B89600BBCB0A /* VALENCIA.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = VALENCIA.kml; sourceTree = "<group>"; };
 		CB92C2ED23E427AD00EFA3A7 /* GoogleMapsRoutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsRoutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB92C2F023E427AD00EFA3A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB92C2F223E427AD00EFA3A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				CB92C2F923E427B100EFA3A7 /* Assets.xcassets */,
 				CB92C2FB23E427B100EFA3A7 /* LaunchScreen.storyboard */,
 				CB92C2FE23E427B100EFA3A7 /* Info.plist */,
+				CB3C828823F2B89600BBCB0A /* VALENCIA.kml */,
 			);
 			path = GoogleMapsRoutes;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB92C2FD23E427B100EFA3A7 /* LaunchScreen.storyboard in Resources */,
+				CB3C828923F2B89600BBCB0A /* VALENCIA.kml in Resources */,
 				CB92C2FA23E427B100EFA3A7 /* Assets.xcassets in Resources */,
 				CB92C2F823E427AD00EFA3A7 /* Main.storyboard in Resources */,
 			);

@@ -34,7 +34,28 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         //googleRouteService.getRoute(from: "1wpQjG6z9Bp2o4q0vRahpuOzbTug&ll")
-        googleRouteService.getRoute(from: "1qaXkVYuBo-r0tk28f-u9VcF6wKM&hl")
+        //googleRouteService.getRoute(from: "1qaXkVYuBo-r0tk28f-u9VcF6wKM&hl")
+        loadKMLFile()
+    }
+    
+    // MARK: - Private.
+    
+    private func loadKMLFile() {
+        let url = Bundle.main.url(forResource: "VALENCIA", withExtension: "kml")!
+        let data = try! Data(contentsOf: url)
+        
+        renderKML(data: data)
+    }
+    
+    private func renderKML(data: Data) {
+        let kmlParser = GMUKMLParser(data: data)
+        kmlParser.parse()
+                
+        let renderer = GMUGeometryRenderer(map: mapView,
+                                           geometries: kmlParser.placemarks,
+                                           styles: kmlParser.styles,
+                                           styleMaps: kmlParser.styleMaps)
+        renderer.render()
     }
 }
 
@@ -44,14 +65,7 @@ class ViewController: UIViewController {
 extension ViewController: GoogleRouteServiceDelegate {
     
     func didRoute(data: Data) {
-        let kmlParser = GMUKMLParser(data: data)
-        kmlParser.parse()
-                
-        let renderer = GMUGeometryRenderer(map: mapView,
-                                           geometries: kmlParser.placemarks,
-                                           styles: kmlParser.styles,
-                                           styleMaps: kmlParser.styleMaps)
-        renderer.render()
+        renderKML(data: data)
     }
 }
 

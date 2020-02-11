@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>VALENCIA  Walk tour through the Valencia old city centre.  SPAIN</name>
+    <description><![CDATA[Walk tour through the old city centre. 
+<br>Length aprox. 1h]]></description>
+    <Style id="icon-1201-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://clipartart.com/images/small-facebook-clipart-15.jpg</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1201-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1201-fac-info-alt.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1201">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1201-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1201-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1201-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1201-fac-info-alt.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1201-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1201-fac-info-alt.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1201-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1201-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1201-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1231-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1231-poi-barn.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1231-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1231-poi-barn.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1231">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1231-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1231-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1261-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1261-poi-historic-building.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1261-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1261-poi-historic-building.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1261">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1261-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1261-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name><![CDATA[Serrano's Towers]]></name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/S0xA8YWAXthheRTJ7bZZ_Y1yJN97ly8kiGOOk8JAIZkNjTFM-PfczeTOKZKqRWrWQrQC3HN-20conwXbw7-MyGa92Qk" height="200" width="auto" /><br><br>Plaza de los Fueros, s/n, 46003<br>Here starts our walk tour through the old city centre. Length aprox. 1h. A prime example of late-Gothic military architecture of the 14th century. The towers were designed to be defensive structures at one of the busiest city gates.<br>Visiting hours: Tuesdays to Saturdays from 10 am to 2 pm and from 4:30 pm to 8:30 pm. Sundays and public holidays from 10 am to 3 pm]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/S0xA8YWAXthheRTJ7bZZ_Y1yJN97ly8kiGOOk8JAIZkNjTFM-PfczeTOKZKqRWrWQrQC3HN-20conwXbw7-MyGa92Qk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.376003,39.479268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Benicarlo Palace</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/spWaW9etcBDIeysqBrCyNKpKnXnSDrgAxhzVW1SkPU3dAVGmJr7bIif5CLDmrta1W8trIuXt73Tk8aSzImQNXIHZfKId5rrbri7pEQ" height="200" width="auto" /><br><br>Plaza de San Lorenzo, 4; 46003 - Valencia. <br>Tel.:+34 963 876 100<br> www.cortsvalencianes.es (http://www.cortsvalencianes.es/) <br>EIt was built at the end of the 15th century to be the Borgias’ residence. Now, It houses the seat of the Valencian Court. <br>Visiting hours: Mondays to Fridays with previous visit. Free ticket.]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/spWaW9etcBDIeysqBrCyNKpKnXnSDrgAxhzVW1SkPU3dAVGmJr7bIif5CLDmrta1W8trIuXt73Tk8aSzImQNXIHZfKId5rrbri7pEQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.374871,39.477914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marqués de Scala Palace</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Y0F0bXtCC8V_1RPZaaL6WzOBPe_LmGxIGaGMj9NmGw-_hDDiukYHfHNvF6D3gym8D47MRMX1cD7I_Gz_zrcaIutoNkU" height="200" width="auto" /><br><br>Plaza de Manises, 3; 46003 - Valencia <br>Tel.:+34 963 882 500 <br>From its primitive construction in the 16th century, assimilates and repeats the patterns of the typical gothic mansion, with a few later additions in the renaissance style. Nowadays, it houses the seat of the provincial council.]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Y0F0bXtCC8V_1RPZaaL6WzOBPe_LmGxIGaGMj9NmGw-_hDDiukYHfHNvF6D3gym8D47MRMX1cD7I_Gz_zrcaIutoNkU</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.376722,39.476916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baylia Palace</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/Zp9Xf0mKfQn5Bj0MlEJ_SbCXJhn6a6jOUKX5jI46_v8Hdf_9zj22OJ4Yo_vwquNUBwPYWO8Y14OIRvShVjxwU5HbZDA" height="200" width="auto" /><br><br>Plaza de Manises, 4; 46003 - Valencia <br>Tel.+34 963 882 500 <br>Also known as the “Jaudenes”, it’s a palace building of the 16th century. Now, it houses the seat of the provincial government.]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/Zp9Xf0mKfQn5Bj0MlEJ_SbCXJhn6a6jOUKX5jI46_v8Hdf_9zj22OJ4Yo_vwquNUBwPYWO8Y14OIRvShVjxwU5HbZDA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.37681,39.476995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palau de la Generalitat Valenciana</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/n4aJg_uzrOGuP_dgZdN7bRJyI-ombRL71U9Y4vSN8G8W65U2XA65F50GLsoxXRZGB-5okmWpq1QXLrJbvgoLEFldheD_H-dEwg" height="200" width="auto" /><br><br>Caballeros, 2; 46001 - Valencia <br>Tel.+34 963 184 430 <br>Work began in 1421, using a late gothic style. It housed the institution that represented the kingdom of Valencia before the Courts. Nowadays, it houses the seat of the Valencian Autonomous Region government.]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/n4aJg_uzrOGuP_dgZdN7bRJyI-ombRL71U9Y4vSN8G8W65U2XA65F50GLsoxXRZGB-5okmWpq1QXLrJbvgoLEFldheD_H-dEwg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.376896,39.476622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Basilica of our lady of the Forsaken</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/nythOFKMk0t0YVsepbQho5lUP052a2JrKjcJ9F1klGQgPYfhSOOE-dva4J0mtE9g33uoonPVOuCw-ZQbLGwDtlRt147ws2v4S3Ch" height="200" width="auto" /><br><br>Plaza de la Virgen, s/n; 46001 <br>Tel.+34 963 919 214 <br>The Basilica is dedicated to the patron saint of the city. It’s the most important religious building in Valencia during the 17th century and it was also the first new Baroque construction of its time. The side-chapel is in the baroque style and was one of the first to be built in Spain. <br>Open every day from 7 am to 2 pm and from 4.30 pm to 9 pm.]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/nythOFKMk0t0YVsepbQho5lUP052a2JrKjcJ9F1klGQgPYfhSOOE-dva4J0mtE9g33uoonPVOuCw-ZQbLGwDtlRt147ws2v4S3Ch</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.375048,39.476171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Valencia Cathedral</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/8koq2_vgYzsG2ePUk3BYXpRkcfppAKdQeGjtTSmj0iV8t5CD6HpJsl1TK6GI3lFWbcc0XVce80VqXzIryD6ejB63eCHZYA" height="200" width="auto" /><br><br>Plaza Reina, s/n; 46003 <br>Tel.:+34 963 918 127 <br>It is built on the site of a Roman temple, which later became a mosque, the origins of the cathedral date back to the 13th century. It has various architectural styles, from the Romanesque to the baroque. It’s essential to visit The Miguelete (belfry was built in the 13th and 14th centuries) and The Santo Cáliz Chapel (The Holy Chalice that according to tradition was used by Christ during the last Supper is kept inside).<br>Visiting hours: Weekdays, from 10 am to 6 pm. Saturday evenings and evenings before public holidays, from 10 am 5.30 pm. Sundays and public holidays, from 2 pm to 3.30 pm.]]></description>
+        <styleUrl>#icon-1231</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/8koq2_vgYzsG2ePUk3BYXpRkcfppAKdQeGjtTSmj0iV8t5CD6HpJsl1TK6GI3lFWbcc0XVce80VqXzIryD6ejB63eCHZYA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.375531,39.475243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza de la Reina</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/spDjbFpFFtHqIQNUjKWkVY95X9sCSxs0JiMr3JxMwIuPvjw3kSfxybGeOohA4fS9lWxVMOI91abABUiYEwhqm-yVa-s" height="200" width="auto" /><br><br>Plaza Reina, s/n; 46003 <br>Key center of the old quarter of the city, it has interesting architectural elements such as the Cathedral with the Miguelete, the surrounding buildings towards Calles de La Paz and San Vicente, or the tower of the Santa Catalina church.]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/spDjbFpFFtHqIQNUjKWkVY95X9sCSxs0JiMr3JxMwIuPvjw3kSfxybGeOohA4fS9lWxVMOI91abABUiYEwhqm-yVa-s</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.375547,39.474332,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Almoina</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/khJBU2Uop0rUZNo6z5tUpqmB1_TdHjxVlJCY4nlIdFmrCjPRa807k8zrS7-2luPzvl3vEAXRQBoJIxGWHD19FYGw0dxLABI" height="200" width="auto" /><br><br>Plaza de La Almoina, s/n 46003 - Valencia <br>Tel.:+34 962 084 173 <br>An innovative way of seeing the remains of the different civilizations that have existed in Valencia. Of special interest are the various monuments, the 2nd-century baths, the two streets that were the main thoroughfares in Roman times and the courtyard of the old Muslim city. <br> Visiting hours: Tuesdays to Saturdays from 10 am to 2 pm and from 4.30 am to 8.30 pm. Sundays, from 10 am to 3 pm.]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/khJBU2Uop0rUZNo6z5tUpqmB1_TdHjxVlJCY4nlIdFmrCjPRa807k8zrS7-2luPzvl3vEAXRQBoJIxGWHD19FYGw0dxLABI</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.37434,39.47598,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Almudín</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/k8Eofz87RSVh3lS5Xih0MeJan3s9t53oVYnMHhI5B26svC9uya270zGCmj2En2gYUO7pFJpDeL-z9IyIeHAIsQPmy7G6tA" height="200" width="auto" /><br><br>San Luis Beltrán, 1; 46003 - Valencia <br>Tel.:+34 963 525 478 <br>El Almudin was built on the site of a Muslim castle at the beginning of the 14th century as a warehouse for the storage and sale of wheat. The entrance area is decorated with murals depicting scenes related to the wheat entry in the city, historically one of the leader’s greatest worries.Opening hours: Tuesdays to Saturdays, from 10 am to 2 pm. and from 4.30 pm to 8 pm. Saturdays, Sundays and public holidays, from 10 am to 3 pm]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/k8Eofz87RSVh3lS5Xih0MeJan3s9t53oVYnMHhI5B26svC9uya270zGCmj2En2gYUO7pFJpDeL-z9IyIeHAIsQPmy7G6tA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.373653,39.476519,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marqués de Dos Aguas Palace</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/fQAED0dWzh1yI3_EkVtywF9nPqhyZHqDJ9W_fRjFaSqlvI6KpO7FA_2t4sfKMuzsHvM1tcizF9y3XFv-VeYI-orcJcTVHQ" height="200" width="auto" /><br><br>Rinconada García Sanchiz, 6; 46002 - Valencia <br>Tel.:+34 963 516 392 <br>Now important Ceramic Museum (González Martí Museum), housed in a building that dates from the last decade of the 15th century. It’s essential see the magnificent door below, worked in alabaster of the country, which is flanked by two streams.<br>Opening hours: Tuesdays to Saturdays from 10 am to 2 pm and from 4 pm to 8 pm Sundays and public holidays, from 10 am to 2 pm]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/fQAED0dWzh1yI3_EkVtywF9nPqhyZHqDJ9W_fRjFaSqlvI6KpO7FA_2t4sfKMuzsHvM1tcizF9y3XFv-VeYI-orcJcTVHQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.374517,39.472498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boïl Arenós Palace</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/E_iRvYawpUELPycXWMc6TZZxiIXI5I9M3oNbK3NeJbjFQimm668XHSgYYMFxIP64mNELHCjqgNVbNM6i4rR4dJtf6Q" height="200" width="auto" /><br><br>Libreros, 2 y 4. 46002 - Valencia <br>Tel.:+34 963 870 104<br>The gothic palace is registered as a National Artistic Historical Monument and is home to the Valencia Stock Exchange.]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/E_iRvYawpUELPycXWMc6TZZxiIXI5I9M3oNbK3NeJbjFQimm668XHSgYYMFxIP64mNELHCjqgNVbNM6i4rR4dJtf6Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.373921,39.472659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valencia City Hall</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/CW-7Pxb7_P-G6CHXtKS7myxNQnxy2WZIrHJIG3Hiofmddod6VGp1a4Lpk1CjJeG-52INaOGn9wi6NdFCtDHsoyNVBdeAtMdkvxM" height="200" width="auto" /><br><br>Plaza del Ayuntamiento, 1; 46002 - Valencia<br>Tel.:+34 963 525 478<br>www.valencia.es (http://www.valencia.es/) It is the main building of the square, which is also called “Plaza del Ayuntamiento”. The main balcony is a special place to gaze at traditional ceremonys as the “mascletà” .Inside, it’s remarkable the majestic marble stairway that leads to the Crystal Hall, the Hemicycle and the Municipal History Museum.<br> Opening hours: Mondays to Fridays from 10 am to 1 pm, unless official acts impede access.]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/CW-7Pxb7_P-G6CHXtKS7myxNQnxy2WZIrHJIG3Hiofmddod6VGp1a4Lpk1CjJeG-52INaOGn9wi6NdFCtDHsoyNVBdeAtMdkvxM</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.376845,39.469728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lonja de la seda. The silk Exchange</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/KmLLthXFq4LdAjh3vfaNhRw9yIz_bTgUeDLKbDfFsmuSVeXtVVEDQJshYOiRatnjwKFdpYcQ-FhxaZxbsByr7a7fcB8" height="200" width="auto" /><br><br>Plaza del Mercado, s/n. 46001 - Valencia <br>Tel.:+34 963 525 478 <br>One of the symbol of the city and an exponent of the civil Gothic in Europe, declared a World Heritage Site by UNESCO. Its name is due to the business transactions connected with the silk market that were in the origins. Of special interest is the Columnario and the facade with hundreds of allegorical figures. Opening hours: Tuesdays to Saturdays, from 10 am to 2 pm and from 4.30 am to 8.30 pm. Sundays and public holidays, from 10am to 3 pm]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/KmLLthXFq4LdAjh3vfaNhRw9yIz_bTgUeDLKbDfFsmuSVeXtVVEDQJshYOiRatnjwKFdpYcQ-FhxaZxbsByr7a7fcB8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.377478,39.47398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercado Central de Valencia</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/G8dyug--BOTaH-lpHBU2PZefzh9Dgq0h1R2OjEMJnA2JI_v72SRpFkNFLgbqXOhPciYWnS_EoBV2Ie0iiW3ftT-TVpRIQObqtQ" height="200" width="auto" /><br><br>Plaza del Mercado, s/n, 46001 - Valencia<br> Tel.:+34 963 829 100<br> www.mercadocentralvalencia.es (http://www.mercadocentralvalencia.es/)Modernist style building. This is one of the biggest of Europe, exceeding 8.000 m2 of area. It’s remarkable a weathercock, “La Cotorra del Mercat”, that represents the hustle and the smells.<br>Opening hours: Mondays to Saturday 8 am to 3pm.]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/G8dyug--BOTaH-lpHBU2PZefzh9Dgq0h1R2OjEMJnA2JI_v72SRpFkNFLgbqXOhPciYWnS_EoBV2Ie0iiW3ftT-TVpRIQObqtQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.378047,39.473612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torres de Quart</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/URKx_PovN6dR93b1aTmDef1XDHps96ynwuEH27bvur77FQj7D2QvtnLn8N8JuaS8TrJ7eKOPMgN9UquMj8guWTLH3-c" height="200" width="auto" /><br><br>Calle de Guillem de Castro, 89, 46003 <br>The Quart Towers represent a good example of late Gothic military construction. They were conceived as defensive gates for the city, in the walls we can see the tracks that the cannons of Napoleón leave in his siege to Valencia.<br>Opening hours: Tuesdays to Saturdays from 10 am to 2 pm. and from 4.30 am to 8.30 pm. Sundays and public holidays from 10 am to 3 pm]]></description>
+        <styleUrl>#icon-1261</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/URKx_PovN6dR93b1aTmDef1XDHps96ynwuEH27bvur77FQj7D2QvtnLn8N8JuaS8TrJ7eKOPMgN9UquMj8guWTLH3-c</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.38391,39.475757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trayectoria de la ruta.</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -0.37594,39.47947,0
+            -0.37471,39.47892,0
+            -0.37494,39.47765,0
+            -0.37519,39.47667,0
+            -0.3759,39.4767,0
+            -0.37664,39.47682,0
+            -0.3768,39.47703,0
+            -0.37686,39.47661,0
+            -0.37505,39.47618,0
+            -0.37581,39.47526,0
+            -0.3755,39.4753,0
+            -0.37584,39.47448,0
+            -0.37576,39.47427,0
+            -0.37555,39.47434,0
+            -0.37532,39.47419,0
+            -0.37519,39.47478,0
+            -0.37433,39.47598,0
+            -0.37365,39.47652,0
+            -0.37355,39.47649,0
+            -0.37346,39.47633,0
+            -0.37353,39.47585,0
+            -0.37363,39.47584,0
+            -0.37457,39.47401,0
+            -0.37425,39.47394,0
+            -0.37432,39.47317,0
+            -0.37451,39.47251,0
+            -0.37443,39.47251,0
+            -0.37442,39.47274,0
+            -0.37388,39.47269,0
+            -0.374485,39.47273,0
+            -0.374978,39.472908,0
+            -0.375343,39.473036,0
+            -0.375756,39.473045,0
+            -0.37611,39.47318,0
+            -0.37682,39.47219,0
+            -0.37671,39.47123,0
+            -0.37604,39.4702,0
+            -0.37586,39.46981,0
+            -0.37577,39.46941,0
+            -0.37604,39.46917,0
+            -0.37685,39.46927,0
+            -0.37677,39.47161,0
+            -0.37687,39.47218,0
+            -0.37742,39.47291,0
+            -0.37804,39.47361,0
+            -0.37784,39.47345,0
+            -0.3773,39.47386,0
+            -0.37802,39.47434,0
+            -0.37888,39.47523,0
+            -0.37904,39.47529,0
+            -0.37919,39.47523,0
+            -0.37946,39.47489,0
+            -0.37982,39.47503,0
+            -0.38023,39.476,0
+            -0.38038,39.47599,0
+            -0.38041,39.47633,0
+            -0.38391,39.47576,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tourist Information Centre - Valencia Paz </name>
+        <styleUrl>#icon-1201-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.370867699999962,39.4727812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tourist Information Centre - Valencia City Hall (Tourist Office) </name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/pUm04sMFBfwzYCbz8z0bPNxZk_T0DCxFHJc5Xnthv8lr6Mix4QdSFrodimF5nhPzq5896XZngGKfTBZmmay0Sq5IIGwJ6RhaqR_x1RXOs3XLIXg__hyzrV_iR9il47WmsllX1VNYvQ" height="200" width="auto" /><br><br>Plaza del Ayuntamiento, s/n / 46002 SERVICIOS: Información Turística, Venta de VLC Tourist Card, Venta de Servicios Turísticos (Alquiler de Bicicletas, Bioparc, Bus Turistic, Entradas Ciudad de las Artes y las Ciencias, Paseos a Vela, Tours Guiados por el CentroHistórico, Visita al Parque Natural de la Albufera, Visitas Nocturnas...). Venta de Souvenirs, Reservas de Alojamiento online.]]></description>
+        <styleUrl>#icon-1201</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/pUm04sMFBfwzYCbz8z0bPNxZk_T0DCxFHJc5Xnthv8lr6Mix4QdSFrodimF5nhPzq5896XZngGKfTBZmmay0Sq5IIGwJ6RhaqR_x1RXOs3XLIXg__hyzrV_iR9il47WmsllX1VNYvQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.376787,39.470647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tourist Information Centre - Valencia Joaquín Sorolla (Tourist Office)</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/yADECHawP-plVqFGzQpeyod4PPcHYlcGcDHnEvt_0tnguvm8rwbslybuYZ_mhDshqxvGLGsfg9OmuRAVd9TQw3hKE2p_4NXcEnbasPIQ7FVg12a8UYKWIalSLAEryb8J025QfyZEnQ" height="200" width="auto" /><br><br>C/ San Vicente Mártir, 171 - 46007 SERVICIOS: Información Turística, Venta de VLC Tourist Card, Venta de Servicios Turísticos (Alquiler de Bicicletas, Bioparc, Bus Turistic, Entradas Ciudad de las Artes y las Ciencias, Paseos a Vela, Tours Guiados por el Centro Histórico, Visita al Parque Natural de la Albufera, Visitas Nocturnas...). Venta de Souvenirs, Reservas de Alojamiento online.]]></description>
+        <styleUrl>#icon-1201</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/yADECHawP-plVqFGzQpeyod4PPcHYlcGcDHnEvt_0tnguvm8rwbslybuYZ_mhDshqxvGLGsfg9OmuRAVd9TQw3hKE2p_4NXcEnbasPIQ7FVg12a8UYKWIalSLAEryb8J025QfyZEnQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.38317,39.459092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tourist Information Centre - Valencia Airport</name>
+        <styleUrl>#icon-1201-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.474803999999949,39.492218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
