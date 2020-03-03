@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet private weak var mapView: GMSMapView! {
         didSet {
             mapView.delegate = self
+            let camera = GMSCameraPosition.camera(withLatitude: 39.462903, longitude: -0.380321, zoom: 12)
+            mapView.camera = camera
         }
     }
     
@@ -50,6 +52,20 @@ class ViewController: UIViewController {
     private func renderKML(data: Data) {
         let kmlParser = GMUKMLParser(data: data)
         kmlParser.parse()
+        
+//        let geometry = kmlParser.placemarks.first!
+//        let name = geometry as? GMUPlacemark
+        
+        for container in kmlParser.placemarks {
+            if let placemark = container as? GMUPlacemark {
+                for style in kmlParser.styles {
+                    if let styleURL = placemark.styleUrl, style.styleID.contains(styleURL) {
+                        placemark.style = style
+                        break
+                    }
+                }
+            }
+        }
                 
         let renderer = GMUGeometryRenderer(map: mapView,
                                            geometries: kmlParser.placemarks,
@@ -90,7 +106,7 @@ extension ViewController: GMSMapViewDelegate {
     }
 
     func mapView(_ mapView: GMSMapView, markerInfoWindow marker: GMSMarker) -> UIView? {
-        let name = marker.description
+        let name = marker.title
         let description = marker.snippet
         return nil
     }
